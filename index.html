@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content" >
+        <h3>Hello, It's Me</h3>
+        <h1>Altamash Naseem</h1>
+        <h3 >I'm a <span class="multiple-text"></span></h3>
+        <div class="social-media">
+          <a href=""><i class="bx bxl-facebook"></i></a>
+          <a href=""><i class="bx bxl-twitter"></i></a>
+          <a href=""><i class="bx bxl-linkedin"></i></a>
+          <a href=""><i class="bx bxl-instagram-alt"></i></a>
+        </div>
+        <a href="#" class="btn">Download Resume</a>
+      </div>
+      <div class="home-img">
+        <img src="images/profile photo.webp" id="profile" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design  -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/profile photo.webp" id="profile" alt="" />
+      </div>
+      <div class="about-content" style="margin-left: 4rem">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3 style="margin-top: 1rem">Full stack Developer</h3>
+        <p id="aboutpara">
+          "Hello, I'm <span>Altamash</span>, an experienced full-stack developer
+          specializing in Reach.js, Node.js, Express.js, and MongoDB. With a
+          strong foundation in front-end development using Reach.js and a robust
+          backend expertise encompassing Node.js and Express.js coupled with
+          MongoDB, I've built dynamic and scalable web applications. I thrive on
+          creating elegant solutions, leveraging my skills to seamlessly
+          integrate frontend and backend technologies. I've contributed to
+          various projects, from interactive user interfaces to efficient
+          database management systems. My commitment to clean, efficient code
+          and a user-centric approach drives my passion for delivering
+          exceptional digital experiences. Continuously expanding my skill set
+          and staying updated with emerging trends, I'm eager to tackle new
+          challenges and contribute to innovative projects in the ever-evolving
+          tech landscape."
+        </p>
+        <a href="" class="btn" style="margin-top: 1rem">Read More</a>
+      </div>
+    </section>
+    <!-- services section design  -->
+
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web development</h3>
+          <p>
+            Specializing in full-stack development with expertise in Reach.js,
+            Node.js, Express.js, and MongoDB. Crafting seamless, user-centric
+            solutions that elevate your online presence
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box" style="padding: 1.8rem;">
+          <i class="bx bx-code-alt"></i>
+          <h3>UI/UX Enhancement and Optimization</h3>
+          <p>
+            Enhancing user experiences by implementing React.js for intuitive interfaces and ensuring smooth functionality through JavaScript, optimizing overall performance
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section design  -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/project 2.webp" alt="">
+          <div class="portfolio-layer">
+            <h4>full-stack development</h4>
+            <p>using MERN Ecommerce Website which provides better interactive UI to user </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/project 3.webp" alt="">
+          <div class="portfolio-layer">
+            <h4>full-stack development</h4>
+            <p>using MERN Ecommerce Website which provides better interactive UI to user </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+          
+        <div class="portfolio-box">
+          <img src="images/project 1.webp" alt="">
+          <div class="portfolio-layer">
+            <h4>web development</h4>
+            <p>using MERN Ecommerce Website which provides better interactive UI to user </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+       
+    <!-- contact section design  -->
+      <section class="contact" id="contact">
+        <h2 class="heading">
+          Contact <span>Me!</span>
+        </h2>
+        <form action="#">
+          <div class="input-box">
+              <input type="text" placeholder="Full Name" >
+              <input type="email" placeholder="Email Address">
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Mobile Number" >
+            <input type="text" placeholder="Email Subject">
+        </div>
+       <textarea name="" id="" cols="30" rows="10" placeholder="Your Message "></textarea>
+        <input type="submit" value="Send Message" class="btn"> 
+
+        </form>
+
+      </section>
+      <!-- footer design  -->
+        <footer class="footer">
+           <div class="footer-text">
+              <p>Copyright &copy; 2023 by Altamash | All Rights Reserved.</p>
+           </div>
+           <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+           </div>
+        </footer>
+
+           <!-- scroll reveal -->
+
+           <script src="https://unpkg.com/scrollreveal"></script>
+
+             <!-- typed js -->
+             <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+          <!-- custom js -->
+
+          <script src="script.js"></script>
+  </body>
+</html>
