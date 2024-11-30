@@ -1,7 +1,6 @@
 import React from 'react'
 import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
 import { gridItems } from '@/data'
-import { Spotlight } from './ui/Spotlight'
 
 const Grid = () => {
   return (
