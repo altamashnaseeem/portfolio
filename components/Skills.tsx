@@ -76,7 +76,7 @@ export function Skills() {
       <h2 className="text-2xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 text-center mb-6 tracking-widest">TECHNICAL SKILLS</h2>
       <div className="flex flex-col items-center gap-16 justify-center mt-24">
         {skillRows.map((row, index) => (
-          <div key={index} className="flex gap-32 justify-center">
+          <div key={index} className="flex gap-8 lg:gap-32 md:gap-20 sm:gap-12 justify-center">
             {row.map((skill) => (
               <SkillCard 
                 key={skill.name} 
