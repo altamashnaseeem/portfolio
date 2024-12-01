@@ -22,7 +22,7 @@ interface SkillCardProps {
   name: string;
 }
 const SkillCard: React.FC<SkillCardProps> = ({ icon: Icon, name }) => (
-  <div className="">
+  <div className="flex flex-col items-center justify-center">
     <Icon className="w-12 h-12 text-black-100" />
     <span className="text-sm font-medium text-white">{name}</span>
   </div>
@@ -55,7 +55,10 @@ export function Skills() {
     ]
   ];
   return (
-    <div id="skills" className="h-[40rem] mt-24 relative w-full bg-black  overflow-hidden rounded-md">
+    <div className="flex flex-col items-center">
+      <h2 className="text-2xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 text-center mb-6 tracking-widest pt-28">TECHNICAL SKILLS</h2>
+      <div id="skills" className="lg:h-[40rem] sm:h-[30rem] h-[30rem] mt-16 relative w-full bg-black  overflow-hidden rounded-md">
+      
       <div>
      
      
@@ -73,10 +76,9 @@ export function Skills() {
         />
       </div>
         <div className="w-full max-w-4xl mx-auto p-6">
-      <h2 className="text-2xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 text-center mb-6 tracking-widest">TECHNICAL SKILLS</h2>
-      <div className="flex flex-col items-center gap-16 justify-center mt-24">
+      <div className="flex flex-col items-center gap-16 justify-center lg:mt-24 md:mt-12 sm:mt-8 mt-8">
         {skillRows.map((row, index) => (
-          <div key={index} className="flex gap-8 lg:gap-32 md:gap-20 sm:gap-12 justify-center">
+          <div key={index} className="flex gap-4 lg:gap-32 md:gap-20 sm:gap-12 justify-center">
             {row.map((skill) => (
               <SkillCard 
                 key={skill.name} 
@@ -89,6 +91,8 @@ export function Skills() {
       </div>
     </div>
     </div>
+    </div>
+   
   );
 }
 
