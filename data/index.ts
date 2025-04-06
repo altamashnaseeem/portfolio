@@ -174,7 +174,7 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Full Stack development intern @ GROWTHINKK (Remote) - Noida, India",
+      title: "Full Stack development @ GROWTHINKK (Remote) - Agra, India",
       desc: "Built scalable web applications, developing intuitive UIs and robust APIs with React, Node.js, and MongoDB.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",

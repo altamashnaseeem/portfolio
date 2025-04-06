@@ -26,7 +26,7 @@ const MagicButton = ({
 }) => {
   return (
      title==="Show my Resume"?(
-      <Link href="https://drive.google.com/file/d/1GFsJhI6LLWyr_lTKhA6w4NIbeqa9CxMT/view?usp=sharing" target="_blank">
+      <Link href="https://drive.google.com/file/d/1nUy-lXUAF2ZrfjcOT3UsNbWAGWtzkWby/view?usp=sharing" target="_blank">
       <button
       className="relative inline-flex h-10 w-full md:w-60 md:mt-10 lg:mt-2 overflow-hidden rounded-lg p-[1px] focus:outline-none"
       onClick={handleClick}
