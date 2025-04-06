@@ -9,7 +9,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I value strong client relationships, ensuring clear and effective communication ",
+      title:"Full Stack Developer specializing in Next.js and MERN stack development",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -81,6 +81,16 @@ export const navItems = [
       psrc:"https://reuify.vercel.app/",
       src:"https://github.com/altamashnaseeem/REUIFY"
     },
+
+    {
+      id: 3,
+      title: "Hayaa Collection",
+      des: "A modern e-commerce platform featuring curated fashion collections.",
+      img: "/Hayaa.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ja.svg", "/mongo.svg","m.svg"],
+      psrc:"https://hayaa.vercel.app/",
+      src:"https://github.com/altamashnaseeem/Hayaa"
+    },
     
     {
       id: 2,
@@ -91,6 +101,7 @@ export const navItems = [
       psrc:"https://instapostt.netlify.app/",
       src:"https://github.com/altamashnaseeem/socialmediaapp"
     },
+   
     
   ];
   
@@ -163,8 +174,8 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Full Stack Developer intern",
-      desc: "Built scalable web applications, developing intuitive UIs and robust APIs with React, Node.js, and MongoDB during my internship",
+      title: "Full Stack development intern @ GROWTHINKK (Remote) - Noida, India",
+      desc: "Built scalable web applications, developing intuitive UIs and robust APIs with React, Node.js, and MongoDB.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },

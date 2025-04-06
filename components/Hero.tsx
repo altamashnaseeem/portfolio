@@ -44,13 +44,12 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 sm:text-sm md:text-lg lg:text-md bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
             Hi! I&apos;m Altamash,Full Stack Developer!
           </p>
-        
+           
           <a href="#about">
             <MagicButton
               title="Show my Resume"
               icon={<FaLocationArrow />}
               position="right"
-              
             />
           </a>
         </div>
